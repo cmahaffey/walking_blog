@@ -5,16 +5,38 @@ body {
 .month{
   text-align: center;
 }
+
 td,tr{
   text-align: right;
-  padding-top: 0;
+  padding: 0;
   padding-bottom: 4em;
+  margin: 0;
   border: 2px solid;
-  width:8em;
+  width:14.2857142857142857%;
 }
 .day-name{
   padding: 0;
   text-align: center;
+  height:auto;
   font-size: 150%;
   font-style: bold;
+}
+a{
+  z-index: 4;
+  color:white;
+}
+.day1{
+  background-image: url('./images/day1_1.jpg');
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  margin-bottom: 20px;
+  position: relative;
+  z-index: -1;
+  max-width: 500px;
+  height:500px;
 }
